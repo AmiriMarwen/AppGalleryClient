@@ -21,8 +21,8 @@ function Trendingsection() {
     <div className="px-4 md:max-w-7xl mx-auto mt-10 mb-10">
       <div className="w-full text-xl font-normal flex justify-between md:text-2xl">
         <h1 className="">
-          <i className="fab fa-get-pocket mr-2" />
-          Latest Applications :
+          <i className="fas fa-stream mr-2" />
+          Trending Now :
         </h1>
         <p className="">
           <i class="fas fa-angle-double-right"></i>

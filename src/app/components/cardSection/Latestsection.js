@@ -4,7 +4,6 @@ import * as RiIcons from "react-icons/ri";
 import { post } from "jquery";
 import { Link } from "react-router-dom";
 
-
 function Latestsection() {
   const [apps, setApps] = useState([]);
   useEffect(() => {
@@ -23,8 +22,8 @@ function Latestsection() {
     <div className="px-4 md:max-w-7xl mx-auto mt-10 mb-10">
       <div className="w-full text-xl font-normal flex justify-between md:text-2xl">
         <h1 className="">
-          <i className="fab fa-get-pocket mr-2" />
-          Latest Applications :
+          <i className="fas fa-gamepad mr-2" />
+          Latest Games :
         </h1>
         <p className="">
           <i class="fas fa-angle-double-right"></i>
@@ -53,7 +52,7 @@ function Latestsection() {
                     </p>
                     <p className="text-xs font-medium">
                       {app.NumberOfDownloads} M{" "}
-                      <i class="far fa-arrow-alt-circle-down"/>
+                      <i class="far fa-arrow-alt-circle-down" />
                     </p>
                   </div>
                 </div>

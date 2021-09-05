@@ -12,7 +12,10 @@ export const NavMenue = () => (
       <Navbar />
       <div className="mx-auto md:mx-auto sm:mx-auto">
         <Link to="/">
-          <img src={Logo} />
+          {/* <img src={Logo} /> */}
+          <h1 className="text-white font-semibold">
+            <i class="fab fa-android"></i> AppGallery
+          </h1>
         </Link>
       </div>
       <Login />
