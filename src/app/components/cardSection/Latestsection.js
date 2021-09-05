@@ -10,7 +10,7 @@ function Latestsection() {
   useEffect(() => {
     window.scrollTo(0, 0);
     axios
-      .get("http://localhost:1111/api/apps")
+      .get("https://appgallery-api.herokuapp.com/api/apps")
       .then((res) => {
         setApps(res.data);
       })

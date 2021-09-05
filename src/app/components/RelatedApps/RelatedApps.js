@@ -11,7 +11,7 @@ export const RelatedApps = (props) => {
   useEffect(() => {
     // window.scrollTo(0, 0);
     axios
-      .get(`http://localhost:1111/api/apps/${category}`)
+      .get(`https://appgallery-api.herokuapp.com/api/apps/${category}`)
       .then((res) => {
         setcategoryApps(res.data);
       })

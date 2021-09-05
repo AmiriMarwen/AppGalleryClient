@@ -12,7 +12,7 @@ export const AppDetails = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     axios
-      .get(`http://localhost:1111/api/app/${id}`)
+      .get(`https://appgallery-api.herokuapp.com/api/app/${id}`)
       .then((res) => {
         setsingleApp(res.data);
         setAppScreens(res.data.Screens);
